@@ -748,7 +748,9 @@ footer .footer-container {
   }
   #menu-icon {
     display: block;
+    font-size: 40px;
   }
+
   .dropdown-menu {
     display: block;
   }
@@ -817,6 +819,12 @@ footer .footer-container {
   }
 }
 @media (max-width: 650px) {
+  header .logo {
+    width: 120px;
+  }
+  #menu-icon {
+    font-size: 30px;
+  }
   .progress {
     width: 80%;
     margin-bottom: 60px;
